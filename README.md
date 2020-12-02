@@ -66,3 +66,12 @@ In my portfolio, the user will be shown a picture of me and my girlfriend as wel
 * Page that allows the user to contact me but inputting their information
 
 ![](Portfolio/Screenshot%20(19).png)
+
+
+### Links    
+
+
+Github: https://github.com/jakealgor/jakealgor
+
+
+Deploy: https://jakealgor.github.io/jakealgor/

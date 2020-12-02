@@ -1,0 +1,36 @@
+summary{
+    margin-left: 15px;
+}
+​
+footer{
+    text-align: center;
+}
+​
+.navbar-brand{
+    font-weight: bold;
+}
+​
+h1{
+    margin-left: 15px;
+}
+
+h2{
+    margin: auto;
+    font-size: 150%;
+    padding: 0 25px;
+}
+
+.picholder{
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+#profile{
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}

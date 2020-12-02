@@ -1,0 +1,40 @@
+footer{
+    text-align: center;
+}
+
+nav{
+    font-weight: bold;
+}
+​
+h1{
+    margin-left: 15px;
+}
+​
+img{
+    border-radius: 10%;
+    border-width: 5px;
+
+}
+
+body{
+    background-color: yellowgreen !important;
+    padding: 0 !important;
+    margin-top: 0;
+}
+
+#profile{
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
+.container-fluid{
+    text-align: center;
+}
+
+.content {
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 10px;
+    background-color: white;
+    padding: 10%;
+}

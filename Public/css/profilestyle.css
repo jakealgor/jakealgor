@@ -1,0 +1,186 @@
+.navbar {
+    box-shadow: 0 2px 5px 2px;
+}
+
+#profile{
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #007BFF;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px 3px;
+}
+
+.button-box{
+    width: 100%;
+    margin: 25px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #7e26031f;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient( right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(160, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient( right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius:30px;
+    border: 1px solid black;
+}
+
+.submit-btn:hover{
+    background-color: #007BFF;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+.span{
+    color: rgb(119, 2, 2);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+::placeholder {
+    color: white;
+}
+
+button{
+    font-weight: bold;
+}
+
+#loginbtn{
+    border: 1px solid black;
+    background-color: white;
+}
+
+#loginbtn:hover{
+    background: #007BFF;
+}
+
+#registerbtn{
+    border: 1px solid black;
+    background-color: white;
+}
+
+#registerbtn:hover{
+    background: #007BFF;
+}
+
+.wrong {
+    box-shadow: 0 0 3px 2px;
+    color: red;
+}
+
+h3 {
+    color: #fff;
+}
+
+.footer-top {
+    background-color: #111;
+    padding:  80px 0;
+}
+
+.segment-one h3{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.segment-one h3::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-one ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-one ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-one ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    color: white;
+}

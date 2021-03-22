@@ -2,8 +2,28 @@ footer{
     text-align: center;
 }
 
+.container{
+    text-align: center;
+    vertical-align: middle;
+    /* width: auto; */
+    height: 50%;
+}
+
+/* .container:hover{
+    transition: .2s;
+    transform: scale(1.05);
+} */
+
+/* .container2{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+} */
+
 nav{
     font-weight: bold;
+    width: auto;
     box-shadow: 0 2px 5px 2px;
 }
 ​
@@ -12,15 +32,53 @@ h1{
 }
 ​
 img{
+    float: left;
+    height: 128px;
+    width: 128px;
     border-radius: 10%;
     border-width: 5px;
+}
 
+.indexcontainer {
+    /* width: auto; */
+    border-radius: 25px;
+    background-color: wheat;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+
+.picholder {
+    scale: 15%;
+    text-align: center;
+    height: 10%;
+    width: 50%;
+    margin;
+    margin-top:5%;
+    float: left;
+    border-radius: 30px;
+    border-style: inset;
+    border-inline-start-color: yellow;
+    border-inline-end-color: blue;
+}
+
+.picholder1 {
+    scale: 15%;
+    text-align: center;
+    height: 10%;
+    width: 50%;
+    float: left;
+    border-radius: 30px;
+    border-style: inset;
+    border-inline-start-color: yellow;
+    border-inline-end-color: blue;
 }
 
 body{
-    background-color: yellowgreen !important;
-    padding: 0 !important;
+    background-image: url(../imgs/fixed\ 8-bit\ background.gif);
+    background-size: 100%;
     margin-top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #profile{
@@ -33,9 +91,61 @@ body{
 }
 
 .content {
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 5%;
+    text-align: center;
+    width: 70%;
     border-radius: 10%;
     border-style: solid;
     border-width: 10px;
     background-color: white;
     padding: 10%;
+}
+
+.container3{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    width: 25%;
+    width: auto;
+    border-radius: 25px;
+    background-color: wheat;
+    margin-top: 2%;
+    font-size: xx-large;
+}
+
+.container4{
+    margin-top: 2%;
+    background-color: wheat;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    height: 50%;
+}
+
+.container5 {
+    font-size: 100px;
+    width: 25%;
+    width: auto;
+    border-radius: 25px;
+    background-color: wheat;
+    margin-top: 2%;
+}
+
+
+.container6 {
+    font-size: 200%;
+    font-weight: bold;
+    width: 25%;
+    width: auto;
+    border-radius: 25px;
+    background-color: wheat;
+    margin-top: 2%;
+    text-align: left;
 }
